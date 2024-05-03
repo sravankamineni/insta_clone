@@ -1,0 +1,56 @@
+.home-cont {
+  display: flex;
+  flex-direction: column;
+  padding: 25px 90px 15px 90px;
+  justify-content: center;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.slick-container {
+  width: 100%;
+  max-width: 1440px;
+  margin-top: 70px;
+}
+
+.slick-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-image {
+  /* margin: 0px 50px; */
+  width: 90px;
+  height: 90px;
+  border-radius: 45px;
+}
+
+.user-name {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  /* text-align: center; */
+}
+
+/* You can change the CSS color to style the Next and 
+Previous Arrow buttons according to your project */
+
+.slick-prev:before,
+.slick-next:before {
+  color: #334155;
+}
+
+.all-posts {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 0px;
+}
